@@ -23,7 +23,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.COPPER_GOLD_MASS.get());
                         pOutput.accept(ModItems.ROSE_GOLD_INGOT.get());
                         pOutput.accept(ModItems.ROSE_GOLD_NUGGET.get());
+
                         pOutput.accept(ModBlocks.ROSE_GOLD_BLOCK.get());
+
+                        pOutput.accept(ModItems.ROSE_GOLD_APPLE.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_CARROT.get());
                     })
                     .build());
 

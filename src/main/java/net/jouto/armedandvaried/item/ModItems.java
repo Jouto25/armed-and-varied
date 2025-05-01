@@ -23,6 +23,12 @@ public class ModItems {
     public static final RegistryObject<Item> ROSE_GOLD_NUGGET = ITEMS.register("rose_gold_nugget",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ROSE_GOLD_APPLE = ITEMS.register("rose_gold_apple",
+            () -> new Item(new Item.Properties().food(ModFoods.ROSE_GOLD_APPLE)));
+
+    public static final RegistryObject<Item> ROSE_GOLD_CARROT= ITEMS.register("rose_gold_carrot",
+            () -> new Item(new Item.Properties().food(ModFoods.ROSE_GOLD_CARROT)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
