@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.LEATHER_SCRAP.get());
                         pOutput.accept(ModItems.COPPER_GOLD_MASS.get());
                         pOutput.accept(ModItems.ROSE_GOLD_INGOT.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_NUGGET.get());
                     })
                     .build());
 
