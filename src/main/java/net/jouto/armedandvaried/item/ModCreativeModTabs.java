@@ -1,6 +1,7 @@
 package net.jouto.armedandvaried.item;
 
 import net.jouto.armedandvaried.ArmedAndVaried;
+import net.jouto.armedandvaried.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.COPPER_GOLD_MASS.get());
                         pOutput.accept(ModItems.ROSE_GOLD_INGOT.get());
                         pOutput.accept(ModItems.ROSE_GOLD_NUGGET.get());
+                        pOutput.accept(ModBlocks.ROSE_GOLD_BLOCK.get());
                     })
                     .build());
 

@@ -1,6 +1,7 @@
 package net.jouto.armedandvaried;
 
 import com.mojang.logging.LogUtils;
+import net.jouto.armedandvaried.block.ModBlocks;
 import net.jouto.armedandvaried.item.ModCreativeModTabs;
 import net.jouto.armedandvaried.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class ArmedAndVaried {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -46,10 +48,7 @@ public class ArmedAndVaried {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.LEATHER_SCRAP);
-            event.accept(ModItems.COPPER_GOLD_MASS);
-        }
+
     }
 
     @SubscribeEvent
