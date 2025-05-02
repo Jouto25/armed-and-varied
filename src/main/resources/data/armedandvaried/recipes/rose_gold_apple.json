@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "armedandvaried:rose_gold_ingot"
+    },
+    "a": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "rar",
+    "rrr"
+  ],
+  "result": {
+    "item": "armedandvaried:rose_gold_apple"
+  }
+}
