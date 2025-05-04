@@ -9,5 +9,12 @@
 
   "block.armedandvaried.rose_gold_block": "Rose Gold Block",
 
+  "item.armedandvaried.rose_gold_sword": "Rose Gold Sword",
+  "item.armedandvaried.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.armedandvaried.rose_gold_axe": "Rose Gold Axe",
+  "item.armedandvaried.rose_gold_shovel": "Rose Gold Shovel",
+  "item.armedandvaried.rose_gold_hoe": "Rose Gold Hoe",
+
+
   "creativetab.armed_and_varied_tab": "Armed and Varied"
 }

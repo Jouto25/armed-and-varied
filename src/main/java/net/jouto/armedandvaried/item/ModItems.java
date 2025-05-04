@@ -1,7 +1,7 @@
 package net.jouto.armedandvaried.item;
 
 import net.jouto.armedandvaried.ArmedAndVaried;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,8 +26,23 @@ public class ModItems {
     public static final RegistryObject<Item> ROSE_GOLD_APPLE = ITEMS.register("rose_gold_apple",
             () -> new Item(new Item.Properties().food(ModFoods.ROSE_GOLD_APPLE)));
 
-    public static final RegistryObject<Item> ROSE_GOLD_CARROT= ITEMS.register("rose_gold_carrot",
+    public static final RegistryObject<Item> ROSE_GOLD_CARROT = ITEMS.register("rose_gold_carrot",
             () -> new Item(new Item.Properties().food(ModFoods.ROSE_GOLD_CARROT)));
+
+    public static final RegistryObject<Item> ROSE_GOLD_SWORD = ITEMS.register("rose_gold_sword",
+            () -> new SwordItem(ModToolTiers.ROSE_GOLD_INGOT, 0, 2, new Item.Properties()));
+
+    public static final RegistryObject<Item> ROSE_GOLD_PICKAXE = ITEMS.register("rose_gold_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ROSE_GOLD_INGOT, 1, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> ROSE_GOLD_AXE = ITEMS.register("rose_gold_axe",
+            () -> new AxeItem(ModToolTiers.ROSE_GOLD_INGOT, 4, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> ROSE_GOLD_SHOVEL = ITEMS.register("rose_gold_shovel",
+            () -> new ShovelItem(ModToolTiers.ROSE_GOLD_INGOT, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> ROSE_GOLD_HOE = ITEMS.register("rose_gold_hoe",
+            () -> new HoeItem(ModToolTiers.ROSE_GOLD_INGOT, 0, 0, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

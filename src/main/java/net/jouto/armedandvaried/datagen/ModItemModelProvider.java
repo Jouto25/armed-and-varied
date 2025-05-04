@@ -26,6 +26,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROSE_GOLD_APPLE);
         simpleItem(ModItems.ROSE_GOLD_CARROT);
 
+        handheldItem(ModItems.ROSE_GOLD_SWORD);
+        handheldItem(ModItems.ROSE_GOLD_PICKAXE);
+        handheldItem(ModItems.ROSE_GOLD_AXE);
+        handheldItem(ModItems.ROSE_GOLD_SHOVEL);
+        handheldItem(ModItems.ROSE_GOLD_HOE);
+
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item){
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.tryParse("item/handheld")).texture("layer0",
+                ResourceLocation.tryBuild(ArmedAndVaried.MODID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){

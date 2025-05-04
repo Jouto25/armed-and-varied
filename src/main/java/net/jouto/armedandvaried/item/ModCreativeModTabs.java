@@ -28,6 +28,12 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.ROSE_GOLD_APPLE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_CARROT.get());
+
+                        pOutput.accept(ModItems.ROSE_GOLD_SWORD.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_PICKAXE.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_AXE.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_SHOVEL.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_HOE.get());
                     })
                     .build());
 
