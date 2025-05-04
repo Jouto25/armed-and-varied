@@ -108,9 +108,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSE_GOLD_AXE.get())
-                .pattern("RR ")
-                .pattern("RS ")
-                .pattern(" S ")
+                .pattern("RR")
+                .pattern("RS")
+                .pattern(" S")
                 .define('R', ModItems.ROSE_GOLD_INGOT.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
@@ -166,6 +166,85 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
                 .save(pWriter);
 
+        /// EMERALD TOOLS
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SWORD.get())
+                .pattern("E")
+                .pattern("E")
+                .pattern("S")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_PICKAXE.get())
+                .pattern("EEE")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_AXE.get())
+                .pattern("EE")
+                .pattern("ES")
+                .pattern(" S")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SHOVEL.get())
+                .pattern("E")
+                .pattern("S")
+                .pattern("S")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HOE.get())
+                .pattern("EE")
+                .pattern(" S")
+                .pattern(" S")
+                .define('E', Items.EMERALD)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        /// EMERALD ARMOR
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HELMET.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .define('E', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_CHESTPLATE.get())
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_LEGGINGS.get())
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("E E")
+                .define('E', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_BOOTS.get())
+                .pattern("E E")
+                .pattern("E E")
+                .define('E', Items.EMERALD)
+                .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                .save(pWriter);
+
         /// SHAPELESS RECIPES
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ROSE_GOLD_INGOT.get(), 9)
@@ -186,7 +265,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.LEATHER_SCRAP.get(), 8)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.LEATHER_SCRAP.get(), 4)
                 .requires(Items.LEATHER)
                 .unlockedBy(getHasName(Items.LEATHER), has(Items.LEATHER))
                 .save(pWriter);

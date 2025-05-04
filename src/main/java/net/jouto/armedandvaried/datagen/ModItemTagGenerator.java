@@ -23,7 +23,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.ROSE_GOLD_HELMET.get(),
                         ModItems.ROSE_GOLD_CHESTPLATE.get(),
                         ModItems.ROSE_GOLD_LEGGINGS.get(),
-                        ModItems.ROSE_GOLD_BOOTS.get());
+                        ModItems.ROSE_GOLD_BOOTS.get(),
+
+                        ModItems.EMERALD_HELMET.get(),
+                        ModItems.EMERALD_CHESTPLATE.get(),
+                        ModItems.EMERALD_LEGGINGS.get(),
+                        ModItems.EMERALD_BOOTS.get()
+                );
 
     }
 }

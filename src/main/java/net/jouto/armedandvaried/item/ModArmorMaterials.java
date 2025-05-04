@@ -5,13 +5,17 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ROSE_GOLD_INGOT("rose_gold", 15, new int[]{3, 6, 8, 3}, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 0f, 0f, () -> Ingredient.of(ModItems.ROSE_GOLD_INGOT.get()));
+    ROSE_GOLD_INGOT("rose_gold", 15, new int[]{3, 6, 8, 3}, 10,
+            SoundEvents.ARMOR_EQUIP_GOLD, 0f, 0f, () -> Ingredient.of(ModItems.ROSE_GOLD_INGOT.get())),
+
+    EMERALD("emerald", 24, new int[]{3, 6, 8, 3}, 9,
+    SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.of(Items.EMERALD));
 
     private final String name;
     private final int durabilityMulitiplier;

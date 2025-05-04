@@ -20,6 +20,18 @@
   "item.armedandvaried.rose_gold_leggings": "Rose Gold Leggings",
   "item.armedandvaried.rose_gold_boots": "Rose Gold Boots",
 
+  "item.armedandvaried.emerald_sword": "Emerald Sword",
+  "item.armedandvaried.emerald_pickaxe": "Emerald Pickaxe",
+  "item.armedandvaried.emerald_axe": "Emerald Axe",
+  "item.armedandvaried.emerald_shovel": "Emerald Shovel",
+  "item.armedandvaried.emerald_hoe": "Emerald Hoe",
+
+  "item.armedandvaried.emerald_helmet": "Emerald Helmet",
+  "item.armedandvaried.emerald_chestplate": "Emerald Chestplate",
+  "item.armedandvaried.emerald_leggings": "Emerald Leggings",
+  "item.armedandvaried.emerald_boots": "Emerald Boots",
+
+
 
   "creativetab.armed_and_varied_tab": "Armed and Varied"
 }

@@ -19,26 +19,45 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COPPER_GOLD_MASS.get()))
                     .title(Component.translatable("creativetab.armed_and_varied_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        /// MISC ITEMS
                         pOutput.accept(ModItems.LEATHER_SCRAP.get());
+
+                        /// ROSE GOLD ITEMS
                         pOutput.accept(ModItems.COPPER_GOLD_MASS.get());
                         pOutput.accept(ModItems.ROSE_GOLD_INGOT.get());
                         pOutput.accept(ModItems.ROSE_GOLD_NUGGET.get());
 
                         pOutput.accept(ModBlocks.ROSE_GOLD_BLOCK.get());
 
+                        /// ROSE GOLD FOOD
                         pOutput.accept(ModItems.ROSE_GOLD_APPLE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_CARROT.get());
 
+                        /// ROSE GOLD TOOLS
                         pOutput.accept(ModItems.ROSE_GOLD_SWORD.get());
                         pOutput.accept(ModItems.ROSE_GOLD_PICKAXE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_AXE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_SHOVEL.get());
                         pOutput.accept(ModItems.ROSE_GOLD_HOE.get());
 
+                        /// ROSE GOLD ARMOR
                         pOutput.accept(ModItems.ROSE_GOLD_HELMET.get());
                         pOutput.accept(ModItems.ROSE_GOLD_CHESTPLATE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_LEGGINGS.get());
                         pOutput.accept(ModItems.ROSE_GOLD_BOOTS.get());
+
+                        /// EMERALD TOOLS
+                        pOutput.accept(ModItems.EMERALD_SWORD.get());
+                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
+                        pOutput.accept(ModItems.EMERALD_AXE.get());
+                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
+                        pOutput.accept(ModItems.EMERALD_HOE.get());
+
+                        /// EMERALD ARMOR
+                        pOutput.accept(ModItems.EMERALD_HELMET.get());
+                        pOutput.accept(ModItems.EMERALD_CHESTPLATE.get());
+                        pOutput.accept(ModItems.EMERALD_LEGGINGS.get());
+                        pOutput.accept(ModItems.EMERALD_BOOTS.get());
                     })
                     .build());
 

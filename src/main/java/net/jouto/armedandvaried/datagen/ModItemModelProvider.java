@@ -41,26 +41,43 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        //MISC ITEMS
         simpleItem(ModItems.LEATHER_SCRAP);
-        simpleItem(ModItems.COPPER_GOLD_MASS);
 
+        /// ROSE GOLD ITEMS
+        simpleItem(ModItems.COPPER_GOLD_MASS);
         simpleItem(ModItems.ROSE_GOLD_INGOT);
         simpleItem(ModItems.ROSE_GOLD_NUGGET);
 
+        /// ROSE GOLD FOOD
         simpleItem(ModItems.ROSE_GOLD_APPLE);
         simpleItem(ModItems.ROSE_GOLD_CARROT);
 
+        /// ROSE GOLD TOOLS
         handheldItem(ModItems.ROSE_GOLD_SWORD);
         handheldItem(ModItems.ROSE_GOLD_PICKAXE);
         handheldItem(ModItems.ROSE_GOLD_AXE);
         handheldItem(ModItems.ROSE_GOLD_SHOVEL);
         handheldItem(ModItems.ROSE_GOLD_HOE);
 
+        /// ROSE GOLD ARMOR
         trimmedArmorItem(ModItems.ROSE_GOLD_HELMET);
         trimmedArmorItem(ModItems.ROSE_GOLD_CHESTPLATE);
         trimmedArmorItem(ModItems.ROSE_GOLD_LEGGINGS);
         trimmedArmorItem(ModItems.ROSE_GOLD_BOOTS);
 
+        /// EMERALD TOOLS
+        handheldItem(ModItems.EMERALD_SWORD);
+        handheldItem(ModItems.EMERALD_PICKAXE);
+        handheldItem(ModItems.EMERALD_AXE);
+        handheldItem(ModItems.EMERALD_SHOVEL);
+        handheldItem(ModItems.EMERALD_HOE);
+
+        /// EMERALD ARMOR
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

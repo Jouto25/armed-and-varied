@@ -34,6 +34,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.ROSE_GOLD_CARROT)));
 
     /// ROSE GOLD TOOLS
+
     public static final RegistryObject<Item> ROSE_GOLD_SWORD = ITEMS.register("rose_gold_sword",
             () -> new SwordItem(ModToolTiers.ROSE_GOLD_INGOT, 3, -2.4F, new Item.Properties()));
 
@@ -50,6 +51,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.ROSE_GOLD_INGOT, -3, 0, new Item.Properties()));
 
     /// ROSE GOLD ARMOR
+
     public static final RegistryObject<Item> ROSE_GOLD_HELMET = ITEMS.register("rose_gold_helmet",
             () -> new ArmorItem(ModArmorMaterials.ROSE_GOLD_INGOT, ArmorItem.Type.HELMET, new Item.Properties()));
 
@@ -62,6 +64,36 @@ public class ModItems {
     public static final RegistryObject<Item> ROSE_GOLD_BOOTS = ITEMS.register("rose_gold_boots",
             () -> new ArmorItem(ModArmorMaterials.ROSE_GOLD_INGOT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    /// EMERALD TOOLS
+    ///
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(ModToolTiers.ROSE_GOLD_INGOT, 3, -2.4F, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ROSE_GOLD_INGOT, 1, -2.8F, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
+            () -> new AxeItem(ModToolTiers.ROSE_GOLD_INGOT, 5, -3F, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
+            () -> new ShovelItem(ModToolTiers.ROSE_GOLD_INGOT, 1.5F, -3F, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
+            () -> new HoeItem(ModToolTiers.ROSE_GOLD_INGOT, -3, 0, new Item.Properties()));
+
+    ///
+
+    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
+            () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
