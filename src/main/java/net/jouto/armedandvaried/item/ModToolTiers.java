@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier ROSE_GOLD_INGOT = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 250, 8f, 3f, 14,
+            new ForgeTier(3, 250, 8.0F, 3f, 14,
                     ModTags.Blocks.NEEDS_ROSE_GOLD_TOOL, () -> Ingredient.of(ModItems.ROSE_GOLD_INGOT.get())),
             ResourceLocation.tryBuild(ArmedAndVaried.MODID, "rose_gold_ingot"), List.of(Tiers.DIAMOND), List.of());
 }

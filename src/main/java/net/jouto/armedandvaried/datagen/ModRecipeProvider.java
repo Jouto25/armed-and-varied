@@ -27,6 +27,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, ROSE_GOLD_SMELTABLES, RecipeCategory.MISC, ModItems.COPPER_GOLD_MASS.get(), 1f, 200, "rose_gold");
         oreBlasting(pWriter, ROSE_GOLD_SMELTABLES, RecipeCategory.MISC, ModItems.COPPER_GOLD_MASS.get(), 1f, 100, "rose_gold");
 
+        /// SHAPED RECIPES
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ROSE_GOLD_BLOCK.get())
                 .pattern("RRR")
                 .pattern("RRR")
@@ -52,6 +54,40 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', Items.GOLDEN_CARROT)
                 .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
                 .save(pWriter);
+
+        /// CHAINMAIL ARMOR
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_HELMET)
+                .pattern("III")
+                .pattern("I I")
+                .define('I', Items.IRON_NUGGET)
+                .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_CHESTPLATE)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .define('I', Items.IRON_NUGGET)
+                .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_LEGGINGS)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .define('I', Items.IRON_NUGGET)
+                .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_BOOTS)
+                .pattern("I I")
+                .pattern("I I")
+                .define('I', Items.IRON_NUGGET)
+                .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
+                .save(pWriter);
+
+        /// ROSE GOLD TOOLS
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSE_GOLD_SWORD.get())
                 .pattern("R")
@@ -97,6 +133,40 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
                 .save(pWriter);
+
+        /// ROSE GOLD ARMOR
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSE_GOLD_HELMET.get())
+                .pattern("RRR")
+                .pattern("R R")
+                .define('R', ModItems.ROSE_GOLD_INGOT.get())
+                .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSE_GOLD_CHESTPLATE.get())
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.ROSE_GOLD_INGOT.get())
+                .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSE_GOLD_LEGGINGS.get())
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .define('R', ModItems.ROSE_GOLD_INGOT.get())
+                .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ROSE_GOLD_BOOTS.get())
+                .pattern("R R")
+                .pattern("R R")
+                .define('R', ModItems.ROSE_GOLD_INGOT.get())
+                .unlockedBy(getHasName(ModItems.ROSE_GOLD_INGOT.get()), has(ModItems.ROSE_GOLD_INGOT.get()))
+                .save(pWriter);
+
+        /// SHAPELESS RECIPES
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ROSE_GOLD_INGOT.get(), 9)
                 .requires(ModBlocks.ROSE_GOLD_BLOCK.get())

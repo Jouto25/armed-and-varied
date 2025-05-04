@@ -34,6 +34,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROSE_GOLD_AXE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_SHOVEL.get());
                         pOutput.accept(ModItems.ROSE_GOLD_HOE.get());
+
+                        pOutput.accept(ModItems.ROSE_GOLD_HELMET.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_LEGGINGS.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_BOOTS.get());
                     })
                     .build());
 
