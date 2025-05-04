@@ -31,7 +31,16 @@
   "item.armedandvaried.emerald_leggings": "Emerald Leggings",
   "item.armedandvaried.emerald_boots": "Emerald Boots",
 
+  "item.armedandvaried.copper_sword": "Copper Sword",
+  "item.armedandvaried.copper_pickaxe": "Copper Pickaxe",
+  "item.armedandvaried.copper_axe": "Copper Axe",
+  "item.armedandvaried.copper_shovel": "Copper Shovel",
+  "item.armedandvaried.copper_hoe": "Copper Hoe",
 
+  "item.armedandvaried.copper_helmet": "Copper Helmet",
+  "item.armedandvaried.copper_chestplate": "Copper Chestplate",
+  "item.armedandvaried.copper_leggings": "Copper Leggings",
+  "item.armedandvaried.copper_boots": "Copper Boots",
 
   "creativetab.armed_and_varied_tab": "Armed and Varied"
 }

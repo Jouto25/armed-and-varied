@@ -28,7 +28,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.EMERALD_HELMET.get(),
                         ModItems.EMERALD_CHESTPLATE.get(),
                         ModItems.EMERALD_LEGGINGS.get(),
-                        ModItems.EMERALD_BOOTS.get()
+                        ModItems.EMERALD_BOOTS.get(),
+
+                        ModItems.COPPER_HELMET.get(),
+                        ModItems.COPPER_CHESTPLATE.get(),
+                        ModItems.COPPER_LEGGINGS.get(),
+                        ModItems.COPPER_BOOTS.get()
                 );
 
     }

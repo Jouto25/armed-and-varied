@@ -15,7 +15,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
             SoundEvents.ARMOR_EQUIP_GOLD, 0f, 0f, () -> Ingredient.of(ModItems.ROSE_GOLD_INGOT.get())),
 
     EMERALD("emerald", 24, new int[]{3, 6, 8, 3}, 9,
-    SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.of(Items.EMERALD));
+    SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.of(Items.EMERALD)),
+
+    COPPER_INGOT("copper", 15, new int[]{1, 4, 5, 2}, 7,
+            SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(Items.COPPER_INGOT));
 
     private final String name;
     private final int durabilityMulitiplier;

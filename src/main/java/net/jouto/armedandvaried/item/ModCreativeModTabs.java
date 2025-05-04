@@ -58,6 +58,19 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD_CHESTPLATE.get());
                         pOutput.accept(ModItems.EMERALD_LEGGINGS.get());
                         pOutput.accept(ModItems.EMERALD_BOOTS.get());
+
+                        /// COPPER TOOLS
+                        pOutput.accept(ModItems.COPPER_SWORD.get());
+                        pOutput.accept(ModItems.COPPER_PICKAXE.get());
+                        pOutput.accept(ModItems.COPPER_AXE.get());
+                        pOutput.accept(ModItems.COPPER_SHOVEL.get());
+                        pOutput.accept(ModItems.COPPER_HOE.get());
+
+                        /// COPPER ARMOR
+                        pOutput.accept(ModItems.COPPER_HELMET.get());
+                        pOutput.accept(ModItems.COPPER_CHESTPLATE.get());
+                        pOutput.accept(ModItems.COPPER_LEGGINGS.get());
+                        pOutput.accept(ModItems.COPPER_BOOTS.get());
                     })
                     .build());
 
