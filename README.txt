@@ -1,46 +1,46 @@
+## Please read the Important Notes Section at the bottom of the page.
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+Armed and Varied is a mod that adds more tiers of tools and armor, alongside updating some early gear to make adventuring in Minecraft a little more smoother.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+Click the tab to see the full detailed list of what the mod adds.
 
-Setup Process:
-==============================
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+Full Breakdown:
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+Four new tiers of tools and armor await you!
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+* Copper A tier between stone and iron, though less enchantable than iron.
+* Amethyst A tier between iron and emerald. Go adventuring in style!
+* Emerald A tier between amethyst and diamond. Slay the monsters with the currency of the villagers!
+* Rose Gold A tier of its own. With the strength of diamond tools and armor, it’s a quick and stylish fix to keep you on top of any foe that dares to cross your path!
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+Overhauled Leather and Chainmail recipes!
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+* Leather armor has been changed so it is more easier to acquire early game.  To make leather armor, you’ll need to turn leather into leather scraps.
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+* Chainmail armor also has crafting recipes. Use iron nuggets to get chainmail armor quickly!
+
+
+Other Rose Gold items and blocks for you to use!
+* Rose Gold Blocks! Make a palace with this beautiful block!
+* Rose Gold Apple A tier between Gold and Enchanted Gold Apples! Gives Regeneration, Absorption, and Fire Resistance!
+* Rose Gold Carrot A greater version of the Gold Carrot. It will give more saturation and restore more hunger than regular golden carrots!
+
+
+
+
+**Future Plans**:
+* Port to Fabric (1.20.1, 1.21.1) and NeoForge (1.21.1)
+
+
+### IMPORTANT NOTES
+
+Rose Gold Ingots cannot be used as trim materials due to limitations with Forge. To circumvent this issue, use the [All The Trims](https://modrinth.com/mod/allthetrims) mod which will let you trim armor with Rose Gold.
+
+If you like the look of the armors introduced but want to use better armors, use the [Cosmetic Armor Reworked](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked) mod.
+
+**Please do not ask for a backport or porting to future versions. That versions that I plan to port this mod are the current versions I will focus on for now.**
+
+If you find any fatal errors, any bugs, or have any suggestions you would like to give, to to the GitHub repository. 
+
+**This mod is only posted on CurseForge, Modrinth, Planet Minecraft, and GitHub. Any other sites that post this mod may be dangerous, so do not download this mod other than the sites I mentioned.**
