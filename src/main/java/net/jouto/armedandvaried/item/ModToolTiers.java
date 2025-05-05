@@ -27,4 +27,9 @@ public class ModToolTiers {
             new ForgeTier(2, 191, 5.0F, 1f, 14,
                     ModTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
             ResourceLocation.tryBuild(ArmedAndVaried.MODID, "coper_ingot"), List.of(Tiers.STONE), List.of());
+
+    public static final Tier AMETHYST_SHARD = TierSortingRegistry.registerTier(
+            new ForgeTier(2, 578, 6.0F, 2f, 12,
+                    ModTags.Blocks.NEEDS_AMETHYST_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD)),
+            ResourceLocation.tryBuild(ArmedAndVaried.MODID, "amethyst_shard"), List.of(Tiers.IRON), List.of());
 }

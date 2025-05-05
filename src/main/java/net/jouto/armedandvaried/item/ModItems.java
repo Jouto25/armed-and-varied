@@ -126,6 +126,37 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots",
             () -> new ArmorItem(ModArmorMaterials.COPPER_INGOT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    /// AMETHYST TOOLS
+
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
+            () -> new SwordItem(ModToolTiers.AMETHYST_SHARD, 3, -2.4F, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.AMETHYST_SHARD, 1, -2.8F, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
+            () -> new AxeItem(ModToolTiers.AMETHYST_SHARD, 6F, -3F, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
+            () -> new ShovelItem(ModToolTiers.AMETHYST_SHARD, 2F, -3F, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
+            () -> new HoeItem(ModToolTiers.AMETHYST_SHARD, -2, -0.5F, new Item.Properties()));
+
+    ///AMETHYST ARMOR
+
+    public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet",
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST_SHARD, ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST_SHARD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings",
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST_SHARD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST_SHARD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

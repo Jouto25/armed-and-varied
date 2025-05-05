@@ -14,11 +14,14 @@ public enum ModArmorMaterials implements ArmorMaterial {
     ROSE_GOLD_INGOT("rose_gold", 15, new int[]{3, 6, 8, 3}, 10,
             SoundEvents.ARMOR_EQUIP_GOLD, 0f, 0f, () -> Ingredient.of(ModItems.ROSE_GOLD_INGOT.get())),
 
-    EMERALD("emerald", 24, new int[]{3, 6, 8, 3}, 9,
+    EMERALD("emerald", 24, new int[]{3, 6, 7, 3}, 9,
     SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0f, () -> Ingredient.of(Items.EMERALD)),
 
     COPPER_INGOT("copper", 15, new int[]{1, 4, 5, 2}, 7,
-            SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(Items.COPPER_INGOT));
+            SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(Items.COPPER_INGOT)),
+
+    AMETHYST_SHARD("amethyst", 20, new int[]{2, 5, 7, 3}, 9,
+    SoundEvents.ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.of(Items.AMETHYST_SHARD));
 
     private final String name;
     private final int durabilityMulitiplier;

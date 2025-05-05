@@ -16,6 +16,8 @@ public class ModTags {
 
         public static final TagKey<Block> NEEDS_COPPER_TOOL = tag("needs_copper_tool");
 
+        public static final TagKey<Block> NEEDS_AMETHYST_TOOL = tag("needs_amethyst_tool");
+
         private  static TagKey<Block> tag(String name) {
             return BlockTags.create(Objects.requireNonNull(ResourceLocation.tryBuild(ArmedAndVaried.MODID, name)));
         }

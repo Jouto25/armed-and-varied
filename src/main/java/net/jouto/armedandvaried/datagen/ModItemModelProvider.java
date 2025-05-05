@@ -91,6 +91,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.COPPER_CHESTPLATE);
         trimmedArmorItem(ModItems.COPPER_LEGGINGS);
         trimmedArmorItem(ModItems.COPPER_BOOTS);
+
+        /// AMETHYST TOOLS
+        handheldItem(ModItems.AMETHYST_SWORD);
+        handheldItem(ModItems.AMETHYST_PICKAXE);
+        handheldItem(ModItems.AMETHYST_AXE);
+        handheldItem(ModItems.AMETHYST_SHOVEL);
+        handheldItem(ModItems.AMETHYST_HOE);
+
+        /// AMETHYST ARMOR
+        trimmedArmorItem(ModItems.AMETHYST_HELMET);
+        trimmedArmorItem(ModItems.AMETHYST_CHESTPLATE);
+        trimmedArmorItem(ModItems.AMETHYST_LEGGINGS);
+        trimmedArmorItem(ModItems.AMETHYST_BOOTS);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

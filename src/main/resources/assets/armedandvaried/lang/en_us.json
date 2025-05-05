@@ -42,5 +42,16 @@
   "item.armedandvaried.copper_leggings": "Copper Leggings",
   "item.armedandvaried.copper_boots": "Copper Boots",
 
+  "item.armedandvaried.amethyst_sword": "Amethyst Sword",
+  "item.armedandvaried.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.armedandvaried.amethyst_axe": "Amethyst Axe",
+  "item.armedandvaried.amethyst_shovel": "Amethyst Shovel",
+  "item.armedandvaried.amethyst_hoe": "Amethyst Hoe",
+
+  "item.armedandvaried.amethyst_helmet": "Amethyst Helmet",
+  "item.armedandvaried.amethyst_chestplate": "Amethyst Chestplate",
+  "item.armedandvaried.amethyst_leggings": "Amethyst Leggings",
+  "item.armedandvaried.amethyst_boots": "Amethyst Boots",
+
   "creativetab.armed_and_varied_tab": "Armed and Varied"
 }

@@ -33,7 +33,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.COPPER_HELMET.get(),
                         ModItems.COPPER_CHESTPLATE.get(),
                         ModItems.COPPER_LEGGINGS.get(),
-                        ModItems.COPPER_BOOTS.get()
+                        ModItems.COPPER_BOOTS.get(),
+
+                        ModItems.AMETHYST_HELMET.get(),
+                        ModItems.AMETHYST_CHESTPLATE.get(),
+                        ModItems.AMETHYST_LEGGINGS.get(),
+                        ModItems.AMETHYST_BOOTS.get()
                 );
 
     }
