@@ -2,8 +2,6 @@
 
 Armed and Varied is a mod that adds more tiers of tools and armor, alongside updating some early gear to make adventuring in Minecraft a little more smoother.
 
-Click the tab to see the full detailed list of what the mod adds.
-
 
 Full Breakdown:
 
@@ -25,8 +23,6 @@ Other Rose Gold items and blocks for you to use!
 * Rose Gold Blocks! Make a palace with this beautiful block!
 * Rose Gold Apple A tier between Gold and Enchanted Gold Apples! Gives Regeneration, Absorption, and Fire Resistance!
 * Rose Gold Carrot A greater version of the Gold Carrot. It will give more saturation and restore more hunger than regular golden carrots!
-
-
 
 
 **Future Plans**:
