@@ -34,11 +34,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROSE_GOLD_CARROT.get());
 
                         /// ROSE GOLD TOOLS
-                        pOutput.accept(ModItems.ROSE_GOLD_SWORD.get());
-                        pOutput.accept(ModItems.ROSE_GOLD_PICKAXE.get());
                         pOutput.accept(ModItems.ROSE_GOLD_AXE.get());
-                        pOutput.accept(ModItems.ROSE_GOLD_SHOVEL.get());
                         pOutput.accept(ModItems.ROSE_GOLD_HOE.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_PICKAXE.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_SHOVEL.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_SWORD.get());
 
                         /// ROSE GOLD ARMOR
                         pOutput.accept(ModItems.ROSE_GOLD_HELMET.get());
@@ -47,11 +47,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROSE_GOLD_BOOTS.get());
 
                         /// EMERALD TOOLS
-                        pOutput.accept(ModItems.EMERALD_SWORD.get());
-                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
                         pOutput.accept(ModItems.EMERALD_AXE.get());
-                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
                         pOutput.accept(ModItems.EMERALD_HOE.get());
+                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
+                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
+                        pOutput.accept(ModItems.EMERALD_SWORD.get());
 
                         /// EMERALD ARMOR
                         pOutput.accept(ModItems.EMERALD_HELMET.get());
@@ -60,11 +60,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD_BOOTS.get());
 
                         /// COPPER TOOLS
-                        pOutput.accept(ModItems.COPPER_SWORD.get());
-                        pOutput.accept(ModItems.COPPER_PICKAXE.get());
                         pOutput.accept(ModItems.COPPER_AXE.get());
-                        pOutput.accept(ModItems.COPPER_SHOVEL.get());
                         pOutput.accept(ModItems.COPPER_HOE.get());
+                        pOutput.accept(ModItems.COPPER_PICKAXE.get());
+                        pOutput.accept(ModItems.COPPER_SHOVEL.get());
+                        pOutput.accept(ModItems.COPPER_SWORD.get());
 
                         /// COPPER ARMOR
                         pOutput.accept(ModItems.COPPER_HELMET.get());
@@ -73,11 +73,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.COPPER_BOOTS.get());
 
                         /// AMETHYST TOOLS
-                        pOutput.accept(ModItems.AMETHYST_SWORD.get());
-                        pOutput.accept(ModItems.AMETHYST_PICKAXE.get());
                         pOutput.accept(ModItems.AMETHYST_AXE.get());
-                        pOutput.accept(ModItems.AMETHYST_SHOVEL.get());
                         pOutput.accept(ModItems.AMETHYST_HOE.get());
+                        pOutput.accept(ModItems.AMETHYST_PICKAXE.get());
+                        pOutput.accept(ModItems.AMETHYST_SHOVEL.get());
+                        pOutput.accept(ModItems.AMETHYST_SWORD.get());
 
                         /// AMETHYST ARMOR
                         pOutput.accept(ModItems.AMETHYST_HELMET.get());

@@ -24,8 +24,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, ROSE_GOLD_SMELTABLES, RecipeCategory.MISC, ModItems.COPPER_GOLD_MASS.get(), 1f, 200, "rose_gold");
-        oreBlasting(pWriter, ROSE_GOLD_SMELTABLES, RecipeCategory.MISC, ModItems.COPPER_GOLD_MASS.get(), 1f, 100, "rose_gold");
+        oreSmelting(pWriter, ROSE_GOLD_SMELTABLES, RecipeCategory.MISC, ModItems.ROSE_GOLD_INGOT.get(), 1f, 200, "rose_gold");
+        oreBlasting(pWriter, ROSE_GOLD_SMELTABLES, RecipeCategory.MISC, ModItems.ROSE_GOLD_INGOT.get(), 1f, 100, "rose_gold");
 
         /// SHAPED RECIPES
 
