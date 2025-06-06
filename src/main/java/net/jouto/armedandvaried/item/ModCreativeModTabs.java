@@ -90,6 +90,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.EMERALD_HORSE_ARMOR.get());
                         pOutput.accept(ModItems.COPPER_HORSE_ARMOR.get());
                         pOutput.accept(ModItems.AMETHYST_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.NETHERITE_HORSE_ARMOR.get());
                     })
                     .build());
 

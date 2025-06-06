@@ -8,6 +8,7 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -460,6 +461,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
 
+        /// SmithingTransformRecipeBuilder.smithing(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, Items.DIAMOND_HORSE_ARMOR, Items.NETHERITE_INGOT, RecipeCategory.MISC, ModItems.NETHERITE_HORSE_ARMOR.get());
+        ///  Might come back to datagen recipes for smithing upgrades later.
+
+
+
         /// SHAPELESS RECIPES
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ROSE_GOLD_INGOT.get(), 9)
@@ -501,6 +507,5 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
                     .save(pFinishedRecipeConsumer, ArmedAndVaried.MODID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
-
+      }
     }
-}

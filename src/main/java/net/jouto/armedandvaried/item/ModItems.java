@@ -174,6 +174,9 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST_HORSE_ARMOR = ITEMS.register("amethyst_horse_armor",
             () -> new HorseArmorItem(8, ResourceLocation.tryBuild(ArmedAndVaried.MODID, "textures/entity/horse/armor/horse_armor_amethyst.png"), new Item.Properties().stacksTo(1)));
 
+    public static final RegistryObject<Item> NETHERITE_HORSE_ARMOR = ITEMS.register("netherite_horse_armor",
+            () -> new HorseArmorItem(13, ResourceLocation.tryBuild(ArmedAndVaried.MODID, "textures/entity/horse/armor/horse_armor_netherite.png"), new Item.Properties().stacksTo(1)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -111,6 +111,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.EMERALD_HORSE_ARMOR);
         simpleItem(ModItems.COPPER_HORSE_ARMOR);
         simpleItem(ModItems.AMETHYST_HORSE_ARMOR);
+        simpleItem(ModItems.NETHERITE_HORSE_ARMOR);
 
     }
 
