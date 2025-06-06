@@ -84,6 +84,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.AMETHYST_CHESTPLATE.get());
                         pOutput.accept(ModItems.AMETHYST_LEGGINGS.get());
                         pOutput.accept(ModItems.AMETHYST_BOOTS.get());
+
+                        /// HORSE ARMOR
+                        pOutput.accept(ModItems.ROSE_GOLD_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.EMERALD_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.COPPER_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.AMETHYST_HORSE_ARMOR.get());
                     })
                     .build());
 

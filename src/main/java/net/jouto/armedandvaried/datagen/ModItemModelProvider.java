@@ -49,6 +49,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ROSE_GOLD_INGOT);
         simpleItem(ModItems.ROSE_GOLD_NUGGET);
 
+
         /// ROSE GOLD FOOD
         simpleItem(ModItems.ROSE_GOLD_APPLE);
         simpleItem(ModItems.ROSE_GOLD_CARROT);
@@ -104,6 +105,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.AMETHYST_CHESTPLATE);
         trimmedArmorItem(ModItems.AMETHYST_LEGGINGS);
         trimmedArmorItem(ModItems.AMETHYST_BOOTS);
+
+        /// HORSE ARMOR
+        simpleItem(ModItems.ROSE_GOLD_HORSE_ARMOR);
+        simpleItem(ModItems.EMERALD_HORSE_ARMOR);
+        simpleItem(ModItems.COPPER_HORSE_ARMOR);
+        simpleItem(ModItems.AMETHYST_HORSE_ARMOR);
+
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

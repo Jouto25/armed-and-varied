@@ -1,11 +1,14 @@
 package net.jouto.armedandvaried.item;
 
 import net.jouto.armedandvaried.ArmedAndVaried;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.Objects;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -156,6 +159,21 @@ public class ModItems {
 
     public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
             () -> new ArmorItem(ModArmorMaterials.AMETHYST_SHARD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    ///  HORSE ARMOR
+
+    public static final RegistryObject<Item> ROSE_GOLD_HORSE_ARMOR = ITEMS.register("rose_gold_horse_armor",
+            () -> new HorseArmorItem(7, ResourceLocation.tryBuild(ArmedAndVaried.MODID, "textures/entity/horse/armor/horse_armor_rose_gold.png"), new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> EMERALD_HORSE_ARMOR = ITEMS.register("emerald_horse_armor",
+            () -> new HorseArmorItem(10, ResourceLocation.tryBuild(ArmedAndVaried.MODID, "textures/entity/horse/armor/horse_armor_emerald.png"), new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor",
+            () -> new HorseArmorItem(4, ResourceLocation.tryBuild(ArmedAndVaried.MODID, "textures/entity/horse/armor/horse_armor_copper.png"), new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> AMETHYST_HORSE_ARMOR = ITEMS.register("amethyst_horse_armor",
+            () -> new HorseArmorItem(8, ResourceLocation.tryBuild(ArmedAndVaried.MODID, "textures/entity/horse/armor/horse_armor_amethyst.png"), new Item.Properties().stacksTo(1)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

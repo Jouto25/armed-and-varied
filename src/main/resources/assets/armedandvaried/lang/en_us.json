@@ -53,7 +53,13 @@
   "item.armedandvaried.amethyst_leggings": "Amethyst Leggings",
   "item.armedandvaried.amethyst_boots": "Amethyst Boots",
 
+  "item.armedandvaried.rose_gold_horse_armor": "Rose Gold Horse Armor",
+  "item.armedandvaried.emerald_horse_armor": "Emerald Horse Armor",
+  "item.armedandvaried.copper_horse_armor": "Copper Horse Armor",
+  "item.armedandvaried.amethyst_horse_armor": "Amethyst Horse Armor",
+
   "trim_material.armedandvaried.rose_gold_ingot": "Rose Gold Material",
+
 
   "creativetab.armed_and_varied_tab": "Armed and Varied"
 }
