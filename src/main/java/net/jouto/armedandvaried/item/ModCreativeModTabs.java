@@ -46,18 +46,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROSE_GOLD_LEGGINGS.get());
                         pOutput.accept(ModItems.ROSE_GOLD_BOOTS.get());
 
-                        /// EMERALD TOOLS
-                        pOutput.accept(ModItems.EMERALD_AXE.get());
-                        pOutput.accept(ModItems.EMERALD_HOE.get());
-                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
-                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
-                        pOutput.accept(ModItems.EMERALD_SWORD.get());
-
-                        /// EMERALD ARMOR
-                        pOutput.accept(ModItems.EMERALD_HELMET.get());
-                        pOutput.accept(ModItems.EMERALD_CHESTPLATE.get());
-                        pOutput.accept(ModItems.EMERALD_LEGGINGS.get());
-                        pOutput.accept(ModItems.EMERALD_BOOTS.get());
+                        pOutput.accept(ModItems.ROSE_GOLD_HORSE_ARMOR.get());
 
                         /// COPPER TOOLS
                         pOutput.accept(ModItems.COPPER_AXE.get());
@@ -72,6 +61,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.COPPER_LEGGINGS.get());
                         pOutput.accept(ModItems.COPPER_BOOTS.get());
 
+                        pOutput.accept(ModItems.COPPER_HORSE_ARMOR.get());
+
                         /// AMETHYST TOOLS
                         pOutput.accept(ModItems.AMETHYST_AXE.get());
                         pOutput.accept(ModItems.AMETHYST_HOE.get());
@@ -85,11 +76,24 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.AMETHYST_LEGGINGS.get());
                         pOutput.accept(ModItems.AMETHYST_BOOTS.get());
 
-                        /// HORSE ARMOR
-                        pOutput.accept(ModItems.ROSE_GOLD_HORSE_ARMOR.get());
-                        pOutput.accept(ModItems.EMERALD_HORSE_ARMOR.get());
-                        pOutput.accept(ModItems.COPPER_HORSE_ARMOR.get());
                         pOutput.accept(ModItems.AMETHYST_HORSE_ARMOR.get());
+
+                        /// EMERALD TOOLS
+                        pOutput.accept(ModItems.EMERALD_AXE.get());
+                        pOutput.accept(ModItems.EMERALD_HOE.get());
+                        pOutput.accept(ModItems.EMERALD_PICKAXE.get());
+                        pOutput.accept(ModItems.EMERALD_SHOVEL.get());
+                        pOutput.accept(ModItems.EMERALD_SWORD.get());
+
+                        /// EMERALD ARMOR
+                        pOutput.accept(ModItems.EMERALD_HELMET.get());
+                        pOutput.accept(ModItems.EMERALD_CHESTPLATE.get());
+                        pOutput.accept(ModItems.EMERALD_LEGGINGS.get());
+                        pOutput.accept(ModItems.EMERALD_BOOTS.get());
+
+                        pOutput.accept(ModItems.EMERALD_HORSE_ARMOR.get());
+
+
                         pOutput.accept(ModItems.NETHERITE_HORSE_ARMOR.get());
                     })
                     .build());
