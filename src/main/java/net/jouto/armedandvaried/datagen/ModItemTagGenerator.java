@@ -41,5 +41,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.AMETHYST_BOOTS.get()
                 );
 
+        tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.ROSE_GOLD_INGOT.get());
     }
 }
