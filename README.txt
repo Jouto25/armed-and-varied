@@ -37,8 +37,6 @@ Other Rose Gold items and blocks for you to use!
 
 ### IMPORTANT NOTES
 
-Rose Gold Ingots cannot be used as trim materials due to limitations with Forge. To circumvent this issue, use the [All The Trims](https://modrinth.com/mod/allthetrims) mod which will let you trim armor with Rose Gold.
-
 If you like the look of the armors introduced but want to use better armors, use the [Cosmetic Armor Reworked](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked) mod.
 
 **Please do not ask for a backport or porting to future versions. That versions that I plan to port this mod are the current versions I will focus on for now.**
