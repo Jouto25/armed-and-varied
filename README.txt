@@ -18,6 +18,12 @@ Overhauled Leather and Chainmail recipes!
 
 * Chainmail armor also has crafting recipes. Use iron nuggets to get chainmail armor quickly!
 
+New Horse Armor and More!
+
+* New Rose Gold, Copper, Amethyst, Emerald, and Netherite Horse Armors!
+
+* All Horse Armors are craftable now!
+
 
 Other Rose Gold items and blocks for you to use!
 * Rose Gold Blocks! Make a palace with this beautiful block!
@@ -26,7 +32,7 @@ Other Rose Gold items and blocks for you to use!
 
 
 **Future Plans**:
-* Port to Fabric (1.20.1, 1.21.1) and NeoForge (1.21.1)
+* Port to Fabric (1.21.1) and NeoForge (1.21.1)
 
 
 ### IMPORTANT NOTES
